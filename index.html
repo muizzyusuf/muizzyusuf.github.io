@@ -10,65 +10,263 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
-    
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#me">About</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#resume">Resume</a>
+                <a class="nav-item nav-link" href="https://github.com/muizzyusuf">GitHub</a>
+                <a class="nav-item nav-link" href="https://www.linkedin.com/in/abdelmuizz-yusuf-7078a6125/">LinkedIn</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container min-vh-100 ">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="display-1 text-center" style="font-family: 'Libre Barcode 128 Text', cursive;">
-                            Abdelmuizz</h1>
-                            
+                        <h1 id="me" class="display-1 text-left pt-5">
+                            👨🏿Muizz</h1>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <p>
-                        <a href="https://www.linkedin.com/in/abdelmuizz-yusuf-7078a6125/">Linkedin</a>
-                        |
-                        <a href="https://github.com/muizzyusuf">Github</a>
-                        | 
-                        <a href="internship-resume-Abdelmuizz.pdf">Resume</a>
-                        |
-                        <a href="projects.html">Projects</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12 text-justify">
+                    <div class="col-lg-12 text-left">
                         <div class="container">
-                            <blockquote class="blockquote">
-                                <p class="mb-0">"Muizz is an enthusiastic, highly-motivated computer science major and data science minor in the University of British Columbia Okanagan.
-                                        He is from Lagos, Nigeria and expects to graduate the summer of 2022. He possesses proven leadership capabilities and 
-                                        He likes to take initiative and seek out new challenges. He listens to a lot of podcasts, loves to cook, enjoys a good game of football, doodles among many other hobbies. 
-                                        You can contact him at <i>abdelmuizz.yusuf@alumni.ubc.ca."</i></p>
+                            <blockquote class="blockquote" style="font-size:x-large;">
+                                <p class="mt-5 pt-5 mb-0">❝Muizz is an enthusiastic, highly-motivated computer science
+                                    major and data science minor in the University of British Columbia Okanagan.
+                                    He is from Lagos, Nigeria and expects to graduate the summer of 2022. He possesses
+                                    proven leadership capabilities and
+                                    He likes to take initiative and seek out new challenges. He listens to a lot of
+                                    podcasts, loves to cook, enjoys a good game of soccer, doodles among many other
+                                    hobbies.
+                                    You can contact him at <i>abdelmuizz.yusuf@ubc.ca.❞</i></p>
                                 <footer class="blockquote-footer"> <cite title="Source Title">Mum & Dad</cite></footer>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="col-lg-6">
-                <img src="avatar.png" alt="pixelme" style="height: auto; width: 100%">
+    <div class="min-vh-100">
 
+        <div class="container">
+            <h1 id="projects" class="display-1 pt-5">
+                👨‍💻Projects</h1>
+            <p class="lead"> Things I have worked on in my learning experience. All code can be found in <a
+                    href="https://github.com/muizzyusuf">github.</a></p>
+        </div>
+        <div class="container mt-5">
+            <div id="accordianId" role="tablist" aria-multiselectable="true">
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="section1HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId"
+                                aria-expanded="true" aria-controls="section1ContentId" style="text-decoration:none">
+                                Personal Website
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                        <div class="card-body">
+                            <p class="lead">
+                                My personal website muizzyusuf.github.io that is hosted on github pages. It contains 2
+                                pages; an about me page and a projects page.
+                            </p>
+                            <p>
+                                <kbd>HTML5</kbd> <kbd>Bootstrap</kbd>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="section2HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId"
+                                aria-expanded="true" aria-controls="section2ContentId" style="text-decoration:none">
+                                Maggies' Grocery Store Website
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+                        <div class="card-body">
+                            <p class="lead">
+                                Worked in a group of 4 to design a database and interactive website for a grocery store.
+                                Designed an Entity Relationship (ER) diagram
+                                using Astah UML program. Used SQL server commands to store and organize customer and
+                                store
+                                related information. Constructed website
+                                using java to access database.
+                            </p>
+                            <p>
+                                <kbd>HTML5</kbd> <kbd>CSS</kbd> <kbd>Bootstrap</kbd> <kbd>Java</kbd> <kbd>JSP</kbd>
+                                <kbd>SQL</kbd>
+                            </p>
+
+                            <div>
+                                <img src="img/maggies.png" class="img-thumbnail" alt="maggies">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="section3HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId"
+                                aria-expanded="true" aria-controls="section3ContentId" style="text-decoration:none">
+                                Household Budget App
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section3ContentId" class="collapse in" role="tabpanel" aria-labelledby="section3HeaderId">
+                        <div class="card-body">
+                            <p class="lead">
+                                Worked in a group of 4 to design a household budget mobile application that lets users
+                                set
+                                financial goals,
+                                add incomes and expenses as well as shows a summary of the users’ transactions.
+                            </p>
+                            <p>
+                                <kbd>Java</kbd> <kbd>Android studio</kbd>
+                            </p>
+
+                            <div>
+                                <img src="img/budgetApp.png" class="img-thumbnail" alt="budget app">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="section4HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section4ContentId"
+                                aria-expanded="true" aria-controls="section4ContentId" style="text-decoration:none">
+                                Word Search App
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section4ContentId" class="collapse in" role="tabpanel" aria-labelledby="section4HeaderId">
+                        <div class="card-body">
+                            <p class="lead">
+                                Created a basic 12 x 12 word search app where the user has to find 11 words hidden in
+                                the
+                                grid.
+                                Once all words are found the users total time to find the words is displayed.
+                            </p>
+                            <p>
+                                <kbd>Java</kbd> <kbd>Android studio</kbd>
+                            </p>
+
+                            <div>
+                                <img src="img/wordsearch.png" class="img-thumbnail" alt="word search app">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="section5HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section5ContentId"
+                                aria-expanded="true" aria-controls="section5ContentId" style="text-decoration:none">
+                                Ramen and Chill Forum Website
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section5ContentId" class="collapse in" role="tabpanel" aria-labelledby="section5HeaderId">
+                        <div class="card-body">
+                            <p class="lead">
+                                Worked in a group of 2 to design a database and interactive students forum website.
+                                Used MySQL commands to store and organize registered user data, forum administrator data
+                                and
+                                other forum related information.
+                                Constructed website using PHP to access database.
+                            </p>
+                            <p>
+                                <kbd>HTML5</kbd> <kbd>CSS</kbd> <kbd>Bootstrap</kbd> <kbd>PHP</kbd> <kbd>SQL</kbd>
+                            </p>
+
+                            <div>
+                                <img src="img/ramen.png" class="img-thumbnail" alt="ramen and chill website">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="section6HeaderId">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordianId" href="#section6ContentId"
+                                aria-expanded="true" aria-controls="section6ContentId" style="text-decoration:none">
+                                Customer Service Chatbot
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="section6ContentId" class="collapse in" role="tabpanel" aria-labelledby="section6HeaderId">
+                        <div class="card-body">
+                            <p class="lead">
+                                Worked in a group of 4 to develop an interactive conversational agent that responds to
+                                user
+                                input.
+                                The chatbot compares user input to potential prompts in a JSON file to match the right
+                                bot
+                                response to it.
+                            </p>
+                            <p>
+                                <kbd>Java</kbd> <kbd>JSON</kbd>
+                            </p>
+
+                            <div>
+                                <img src="img/chatbot.png" class="img-thumbnail" alt="customer service chatbot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        
     </div>
 
-    <div class="container text-center">
-            <code>Website made by Abdelmuizz Yusuf</code> 
+    <div class="min-vh-100">
+        <div class="container">
+            <h1 id="resume" class="display-1 pt-5">📄Resume</h1>
+            <iframe class="mt-5" src="https://muizzyusuf.github.io/internship-resume-Abdelmuizz.pdf" title="Resume"
+                width="100%" height="500"></iframe>
+        </div>
+
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+    <div class="container text-center mt-5 pt-5">
+        <code>Website made by Abdelmuizz Yusuf</code>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -77,6 +275,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
